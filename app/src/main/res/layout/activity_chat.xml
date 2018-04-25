@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_chat"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <android.support.v7.widget.Toolbar xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/primary_dark"
+        android:paddingTop="30dp"
+        android:titleTextColor="#FFFFFF"></android.support.v7.widget.Toolbar>
+
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="310dp"
+        android:clickable="true"
+        android:elevation="0dp"
+        android:src="@drawable/send"
+        android:tint="@android:color/white"
+        app:fabSize="mini" />
+
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/text_input"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_alignParentBottom="true"
+       >
+
+        <EditText
+            android:id="@+id/input"
+            android:layout_width="290dp"
+            android:layout_height="wrap_content"
+            android:hint="Mesajı Gönder"
+            android:textSize="20dp" />
+    </android.support.design.widget.TextInputLayout>
+
+        <ListView
+            android:id="@+id/list_of_messages"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_above="@id/fab"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginBottom="26dp"
+            android:layout_marginTop="100dp"
+            android:divider="@android:color/transparent"
+            android:dividerHeight="26dp" />
+</RelativeLayout>
+

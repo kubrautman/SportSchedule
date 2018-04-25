@@ -1,0 +1,76 @@
+<resources>
+
+    <style name="MyAppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">#a99ffc</item>
+        <item name="colorPrimaryDark">#eaa1c2</item>
+        <item name="colorAccent">#6227ae</item>
+        <item name="android:windowTranslucentStatus">true</item>
+    </style>
+
+
+    <attr name="sc_corner_radius" format="dimension" />
+    <attr name="sc_border_width" format="dimension" />
+    <attr name="sc_tint_color" format="color" />
+    <attr name="sc_checked_text_color" format="color" />
+
+
+    <style name="MyButtonJoin" parent="Theme.AppCompat.Light">
+        <item name="colorControlHighlight">@color/amor</item>
+        <item name="colorButtonNormal">@color/amor</item>
+    </style>
+
+    <style name="MyButtonCancel" parent="Theme.AppCompat.Light">
+        <item name="colorControlHighlight">#E35754</item>
+        <item name="colorButtonNormal">#D85251</item>
+    </style>
+
+
+    <style name="MyButtonEventInfo" parent="Theme.AppCompat.Light">
+        <item name="colorControlHighlight">@color/primary_dark</item>
+        <item name="colorButtonNormal">@color/primary_dark</item>
+    </style>
+
+
+    <style name="MyButtonMap" parent="Theme.AppCompat.Light">
+        <item name="colorControlHighlight">@color/primary</item>
+        <item name="colorButtonNormal">@color/primary</item>
+    </style>
+
+
+    <style name="RatingBar" parent="Theme.AppCompat">
+        <item name="colorControlNormal">#57bef9</item>
+        <item name="colorControlActivated">@color/primary</item>
+    </style>
+
+    <style name="myDialog" parent="Theme.AppCompat.Dialog">
+        <item name="actionBarStyle">@color/primary_light</item>
+    </style>
+
+    <style name="CustomProgress" parent="android:Theme.Material.Dialog">
+        <item name="android:textColorPrimary">#FFFFFF</item>
+        <item name="android:backgroundDimEnabled">false</item>
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:colorBackground">#FFFFFF</item>
+    </style>
+
+    <style name="MyAppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="MyAppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="MyExpandedAppBar" parent="@android:style/TextAppearance.Medium">
+        <item name="android:textSize">25sp</item>
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:layout_marginTop">60dp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="MyExpandedAppBarProfile" parent="@android:style/TextAppearance.Medium">
+        <item name="android:textSize">30sp</item>
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:layout_marginTop">60dp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+</resources>
